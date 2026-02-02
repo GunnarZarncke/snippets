@@ -1,0 +1,42 @@
+# Compiled binaries and executables
+*.exe
+*.out
+*.app
+cpp/*_test
+cpp/container
+cpp/*.o
+cpp/*.a
+cpp/*.so
+cpp/*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.image_cache/
+*.cache
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
